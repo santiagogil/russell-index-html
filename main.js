@@ -21,6 +21,7 @@ module.exports = function template () {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google-site-verification" content="{{google-site-verification}}" />
 <link id='css' rel='stylesheet' type='text/css' href='/assets/css/main-{{version}}.css'>
+<link id='css' rel='stylesheet' type='text/css' href='/assets/css/fonts-{{version}}.css'>
 <title>{{name}}</title>
 </head>
 
