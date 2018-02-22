@@ -22,6 +22,7 @@ module.exports = function template () {
 <meta name="google-site-verification" content="{{google-site-verification}}" />
 <link id='css' rel='stylesheet' type='text/css' href='/assets/css/main-{{version}}.css'>
 <link id='css' rel='stylesheet' type='text/css' href='/assets/css/fonts-{{version}}.css'>
+<link id='css' rel='stylesheet' type='text/css' href='/assets/css/custom-{{version}}.css'>
 <title>{{name}}</title>
 </head>
 
