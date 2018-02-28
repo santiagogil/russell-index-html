@@ -11,7 +11,7 @@ module.exports = function template () {
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
 <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
-<link rel="manifest" href="manifest.json">
+<link rel="manifest" href="/manifest.json">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="application-name" content="{{name}}">
@@ -20,9 +20,9 @@ module.exports = function template () {
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google-site-verification" content="{{google-site-verification}}" />
-<link id='css' rel='stylesheet' type='text/css' href='/assets/css/main-{{version}}.css'>
-<link id='css' rel='stylesheet' type='text/css' href='/assets/css/fonts-{{version}}.css'>
-<link id='css' rel='stylesheet' type='text/css' href='/assets/css/custom-{{version}}.css'>
+<link rel='stylesheet' type='text/css' href='/assets/css/main-{{version}}.css'>
+<link rel='stylesheet' type='text/css' href='/assets/css/fonts-{{version}}.css'>
+<link rel='stylesheet' type='text/css' href='/assets/css/custom-{{version}}.css'>
 <title>{{name}}</title>
 </head>
 
