@@ -2,9 +2,9 @@ module.exports = function template () {
   return `<html lang='es'><head>
 <meta charset="UTF-8">
 <!-- Chrome, Firefox OS and Opera -->
-<meta name="theme-color" content="#222222">
+<meta name="theme-color" content="{{themecolor}}">
 <!-- Windows Phone -->
-<meta name="msapplication-navbutton-color" content="#222222">
+<meta name="msapplication-navbutton-color" content="{{themecolor}}">
 <!-- iOS Safari -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <link rel="apple-touch-icon" href="/assets/img/launcher-icon-4x.png">
