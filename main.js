@@ -7,6 +7,7 @@ module.exports = function template () {
 <link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="{{themecolor}}">
 <link rel="shortcut icon" href="/assets/favicon.ico">
 <meta name="msapplication-TileColor" content="{{themecolor}}">
+<meta name="Description" content="{{description}}">
 <!-- Chrome, Firefox OS and Opera -->
 <meta name="theme-color" content="{{themecolor}}">
 <!-- Windows Phone -->
